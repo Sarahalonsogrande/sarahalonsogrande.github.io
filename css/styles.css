@@ -1,0 +1,154 @@
+/* Hoja de estilos principal
+01/02/2024 */
+
+/* Precargamos las tipografías para visualizar en la página web */
+
+/* ------------------ Grandiflora -------------------------- */
+
+@font-face {
+    font-family: "archivo";
+    src: url("../fonts/archivoBlack.ttf");
+}
+
+/* ------------------ Open Sans -------------------------- */
+
+@font-face {
+    font-family: "openSans";
+    font-style: normal;
+    src: url("../fonts/OpenSans.ttf");
+}
+
+/* ------------------ Amatic Bold -------------------------- */
+
+@font-face {
+    font-family: "amaticBold";
+    font-style: normal;
+    src: url("../fonts/amaticBold.ttf");
+}
+
+/* ------------------ Estilos css -------------------------- */
+:root {
+    --bordePrueba: thin solid red;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "openSans";
+    font-size: 16px;
+}
+
+body {
+    background: #b4b2b2;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+main {
+    background: url(../img/background0.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 84%;
+}
+
+nav {
+    background: 
+    linear-gradient(rgba(10, 20, 30, 0.2), rgba(1, 2, 3, 0.2));
+}
+
+nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    z-index: 9;
+    padding: 0; /* Quitamos el padding por defecto de la lista */
+    margin-left: 10px; /* Separamos la lista de la izquierda */
+    list-style: none; /* Quitamos los marcadores */
+}
+
+nav ul li {
+    width: 140px;
+    color: rgb(245, 184, 208);
+}
+
+li::before { /* Añadimos contenido antes de cada elemento de la lista */
+content: "\2022"; /* Insertamos el marcador */
+padding-right: 8px; /* Establecemos el espacio entre las viñetas y el list item */
+color: rgb(103, 12, 75); /* Coloreamos la viñeta */
+}
+
+hgroup {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    margin-top: 4em;
+    margin-left: 8em;
+}
+
+h1,
+h2 {
+    font-family: "amaticBold";
+    font-size: clamp(14rem, 12.857rem + 5.714vw, 18rem);    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #931b3b;
+}
+
+h2 {
+    font-size: clamp(8rem, 6.857rem + 5.714vw, 12rem);
+    transform: rotate(180deg);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.portada1 {
+    height: 100vh;
+    background: blueviolet;
+}
+
+.portada2 {
+    background: url(../img/background1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 84%;
+}
+
+.portada3 {
+    height: 100vh;
+    background: lightcoral;
+}
+/* ------------------ Estilos cabecera -------------------------- */
+
+/* h1 {
+    font-size: 3em;
+    margin-left: 100px;
+}
+
+h2 {
+    font-size: 1.5em;
+    padding-left: 10px;
+}
+
+/* ------------------ Estilos texto -------------------------- */
+
+/*.txtBlancopeque {
+    font-size: small;
+    color: rgb(97, 97, 97);
+} */
+
+/* ------------------ Estilos especiales --------------------------
+
+p::selection,
+li::selection {
+	/* Estilo especial al seleccionar texto en la página
+    background: rgb(43, 109, 109);
+    color: rgb(185, 170, 170);
+} 
+*/

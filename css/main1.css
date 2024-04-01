@@ -1,0 +1,145 @@
+/* Hoja de estilos 
+ 28/02/2024 */
+
+/* Precargamos las tipografías para visualizar en la página web */
+
+/* ------------------ Archivo Black -------------------------- */
+
+@font-face {
+    font-family: "archivoBlack";
+    src: url("../fonts/archivoBlack.ttf") format("truetype");
+}
+
+/* ------------------ PT -------------------------- */
+
+@font-face {
+    font-family: "PTRegular";
+    src: url("../fonts/PTRegular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "PTBold";
+    src: url("../fonts/PTBold.ttf") format("truetype");
+}
+
+/* ------------------ Amatic -------------------------- */
+
+@font-face {
+    font-family: "amaticRegular";
+    src: url("../fonts/amaticRegular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "amaticBold";
+    src: url("../fonts/amaticBold.ttf") format("truetype");
+}
+
+:root {
+    --bordePrueba: thin solid red;
+}
+
+html {
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    /* min-height: 100vh; */
+    position: relative;
+    font-family: "PTRegular";
+    background: 
+    linear-gradient(rgba(10, 20, 30, 0.2), rgba(1, 2, 3, 0.5));
+    /* url(../img/background0.jpg)  */
+    /* no-repeat 
+    center 
+    center 
+    fixed; */
+    /* background-size: cover;  */
+}
+
+header {
+    position: absolute;
+    inset: 12rem auto auto 5rem;
+    border: var(--bordePrueba);
+}
+
+h1 {
+    font-family: "amaticBold";
+    font-size: 15rem;
+
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #931b3b;
+}
+
+h2 {
+    display: block;
+    width: 80%;
+    margin-left: 5.5rem;
+    text-align: center;
+    font-family: "PTBold";
+    color: rgb(245, 184, 208);
+}
+
+.h1mini {
+    font-size: 12rem;
+}
+
+nav {
+    box-sizing: border-box;
+    background: 
+    linear-gradient(rgba(10, 20, 30, 0.25), rgba(1, 2, 3, 0.25));
+
+}
+
+ul {
+    display: flex;
+    padding: 0; /* Quitamos el padding por defecto de la lista */
+    margin-left: 10px; /* Separamos la lista de la izquierda */
+    list-style: none; /* Quitamos los marcadores */
+    }
+
+    li {
+        width: 140px;
+        color: rgb(245, 184, 208);
+    }
+    
+    li::before { /* Añadimos contenido antes de cada elemento de la lista */
+    content: "\2022"; /* Insertamos el marcador */
+    padding-right: 8px; /* Establecemos el espacio entre las viñetas y el list item */
+    color: rgb(103, 12, 75); /* Coloreamos la viñeta */
+    }
+/* 
+    textarea {
+        resize: none;
+        width: 150px;
+        max-height: 100px;
+        min-height: 36px;
+    } */
+
+    main {
+        /* height: 100%; */
+        display: grid;
+        align-items: end;
+    }
+    
+    .portada1 {
+        height: 100vh;
+        background: url(../img/background0.jpg) teal;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .portada2 {
+        height: 100vh;
+        background: blueviolet;
+    }
+    
+    .portada3 {
+        height: 100vh;
+        background: lightcoral;
+    }
