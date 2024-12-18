@@ -65,6 +65,16 @@ function generateCard(pelicula){
     nuevoParrafoGenero.appendChild(document.createTextNode(pelicula.Genre));
     nuevoContenido.appendChild(nuevoParrafoGenero);
 
+    //8. Actores
+    //<p><span class="genre">Actores:</span> Rulo Pardo, Santiago Molero </p>
+    const nuevoParrafoActores = document.createElement("p");
+    const nuevoSpanActores = document.createElement("span");
+    nuevoSpanActores.setAttribute("class","actors");
+    nuevoSpanActores.textContent = "Actores: ";
+    nuevoParrafoActores.appendChild(nuevoSpanActores);
+    nuevoParrafoActores.appendChild(document.createTextNode(pelicula.Actors));
+    nuevoContenido.appendChild(nuevoParrafoActores);
+
     //Último paso: Agregar al contenedor la ficha recién creada
     document.querySelector("#container").appendChild(nuevaCard);//Agregamos el div al contenedor
 }
