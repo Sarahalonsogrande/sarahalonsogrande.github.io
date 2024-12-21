@@ -1,4 +1,4 @@
-const URL='https://sarahalonsogrande.github.io/Ejercicio32_APPCINE/movies-250.json';
+const URL='https://sarahalonsogrande.github.io/Ejercicio32_APPCINE/omdbRulo.json';
 
 let peliculas;
 let peliculasFiltradas;
