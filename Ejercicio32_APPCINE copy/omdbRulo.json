@@ -1,6 +1,6 @@
 {
     "date": "2025-01-01",
-    "media": [
+    "movies": [
         {
             "Title": "El hotel de los líos. García y García 2",
             "Year": "2023",
@@ -187,7 +187,7 @@
             "Language": "Spanish",
             "Country": "Spain",
             "Awards": "N/A",
-            "Poster": "https://pics.filmaffinity.com/el_jarron-644679110-large.jpg",
+            "Poster": "N/A",
             "Ratings": [],
             "Metascore": "N/A",
             "imdbRating": "N/A",
