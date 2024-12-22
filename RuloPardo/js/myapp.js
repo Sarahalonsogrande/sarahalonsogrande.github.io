@@ -16,7 +16,7 @@ function doGetRequest(url, processData) {
 
 /**************************************************/
 
-const URL='https://sarahalonsogrande.github.io/omdbRulo.json';
+const URL='https://sarahalonsogrande.github.io/RuloPardo/omdbRulo.json';
 
 let peliculas;
 let peliculasFiltradas;
