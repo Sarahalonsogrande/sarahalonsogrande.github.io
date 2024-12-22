@@ -168,8 +168,8 @@ document.querySelector("#b-anyo").addEventListener("click", () => {
     filtrarPeliculas("#t-anyo", "Year");
 });
 
-/**
- * Función de búsqeuda 
+// Función de búsqueda 
+/*
  * 
  * @param {*} idElementoBusqueda Nombre del elemento en el que está el texto de búsqueda
  * @param {*} nombreAtributoBusqueda Nombre del atributo del JSON sobre el que hay que buscar
