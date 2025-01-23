@@ -1,0 +1,115 @@
+[
+    {
+        "nombre": "Hamburguesa Clásica",
+        "ingredientes": [
+            "Pan",
+            "Carne de res",
+            "Lechuga",
+            "Tomate",
+            "Cebolla",
+            "Queso",
+            "Mayonesa",
+            "Ketchup"
+        ],
+        "precio": 5.99,
+        "Images": [
+            "https://images-na.ssl-images-amazon.com/images/M/MV5BMjEyOTYyMzUxNl5BMl5BanBnXkFtZTcwNTg0MTUzNA@@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+            "https://images-na.ssl-images-amazon.com/images/M/MV5BMjEyOTYyMzUxNl5BMl5BanBnXkFtZTcwNTg0MTUzNA@@._V1_SX1500_CR0,0,1500,999_AL_.jpg"
+        ]
+    },
+    {
+        "nombre": "Hamburguesa BBQ",
+        "ingredientes": [
+            "Pan",
+            "Carne de res",
+            "Cebolla caramelizada",
+            "Queso cheddar",
+            "Bacon",
+            "Salsa BBQ"
+        ],
+        "precio": 6.99,
+        "Images": [
+            "https://images-na.ssl-images-amazon.com/images/M/MV5BMjEyOTYyMzUxNl5BMl5BanBnXkFtZTcwNTg0MTUzNA@@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+            "https://images-na.ssl-images-amazon.com/images/M/MV5BMjEyOTYyMzUxNl5BMl5BanBnXkFtZTcwNTg0MTUzNA@@._V1_SX1500_CR0,0,1500,999_AL_.jpg"
+        ]
+    },
+    {
+        "nombre": "Hamburguesa Vegetariana",
+        "ingredientes": [
+            "Pan integral",
+            "Hamburguesa de garbanzos",
+            "Lechuga",
+            "Tomate",
+            "Pepino",
+            "Cebolla",
+            "Mostaza"
+        ],
+        "precio": 5.49,
+        "Images": [
+            "https://images-na.ssl-images-amazon.com/images/M/MV5BMjEyOTYyMzUxNl5BMl5BanBnXkFtZTcwNTg0MTUzNA@@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+            "https://images-na.ssl-images-amazon.com/images/M/MV5BMjEyOTYyMzUxNl5BMl5BanBnXkFtZTcwNTg0MTUzNA@@._V1_SX1500_CR0,0,1500,999_AL_.jpg"
+        ]
+    },
+    {
+        "nombre": "Hamburguesa de Pollo",
+        "ingredientes": [
+            "Pan",
+            "Pechuga de pollo a la parrilla",
+            "Lechuga",
+            "Tomate",
+            "Mayonesa"
+        ],
+        "precio": 6.49,
+        "Images": [
+            "https://images-na.ssl-images-amazon.com/images/M/MV5BMjEyOTYyMzUxNl5BMl5BanBnXkFtZTcwNTg0MTUzNA@@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+            "https://images-na.ssl-images-amazon.com/images/M/MV5BMjEyOTYyMzUxNl5BMl5BanBnXkFtZTcwNTg0MTUzNA@@._V1_SX1500_CR0,0,1500,999_AL_.jpg"
+        ]
+    },
+    {
+        "nombre": "Hamburguesa con Queso Azul",
+        "ingredientes": [
+            "Pan",
+            "Carne de res",
+            "Queso azul",
+            "Cebolla roja",
+            "Rúcula",
+            "Mayonesa de ajo"
+        ],
+        "precio": 7.99,
+        "Images": [
+            "https://images-na.ssl-images-amazon.com/images/M/MV5BMjEyOTYyMzUxNl5BMl5BanBnXkFtZTcwNTg0MTUzNA@@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+            "https://images-na.ssl-images-amazon.com/images/M/MV5BMjEyOTYyMzUxNl5BMl5BanBnXkFtZTcwNTg0MTUzNA@@._V1_SX1500_CR0,0,1500,999_AL_.jpg"
+        ]
+    },
+    {
+        "nombre": "Hamburguesa Picante",
+        "ingredientes": [
+            "Pan",
+            "Carne de res",
+            "Jalapeños",
+            "Queso pepper jack",
+            "Lechuga",
+            "Salsa picante"
+        ],
+        "precio": 6.79,
+        "Images": [
+            "https://images-na.ssl-images-amazon.com/images/M/MV5BMjEyOTYyMzUxNl5BMl5BanBnXkFtZTcwNTg0MTUzNA@@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+            "https://images-na.ssl-images-amazon.com/images/M/MV5BMjEyOTYyMzUxNl5BMl5BanBnXkFtZTcwNTg0MTUzNA@@._V1_SX1500_CR0,0,1500,999_AL_.jpg"
+        ]
+    },
+    {
+        "nombre": "Hamburguesa de Pescado",
+        "ingredientes": [
+            "Pan",
+            "Filete de pescado empanado",
+            "Lechuga",
+            "Tomate",
+            "Tártara"
+        ],
+        "precio": 6.99,
+        "Images": [
+            "https://images-na.ssl-images-amazon.com/images/M/MV5BMjEyOTYyMzUxNl5BMl5BanBnXkFtZTcwNTg0MTUzNA@@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+            "https://images-na.ssl-images-amazon.com/images/M/MV5BMjEyOTYyMzUxNl5BMl5BanBnXkFtZTcwNTg0MTUzNA@@._V1_SX1500_CR0,0,1500,999_AL_.jpg"
+        ]
+    }
+]
